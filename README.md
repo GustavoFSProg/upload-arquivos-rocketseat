@@ -2,5 +2,11 @@
 This an experimental estudy with Node js and React from Rocketseat curse.
 
 <img src="LogoRocketdeat.png" width="40%" />
+<br><br>
+ Stacks:
+ -Node.js
+ -React
+ 
+ 
 
 
