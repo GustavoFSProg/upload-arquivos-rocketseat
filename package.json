@@ -5,11 +5,9 @@
   "repository": "git@github.com:GustavoFSProg/upload-arquivos-rocketseat.git",
   "author": "Gustavo <gustavosohne38@gmail.com>",
   "license": "MIT",
-   "scripts":{
-     "dev": "nodemon --exec babel-node src/index.js"
-   }
-
-
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.27",
