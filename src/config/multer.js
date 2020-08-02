@@ -6,6 +6,10 @@ const upload = {
   storage: new multer.diskStorage({
     destination: path.resolve(__dirname, '..', '..', 'tmp', 'uploads'),
     filename(req, file, cb) {
+      crypto.randomBytes(16, (err, hash) => {
+        if (err) cb(err)
+        const filename = `${hash.toString('hex')}-${file.originalname}`
+      })
       cb(null, file.originalname)
     },
   }),
